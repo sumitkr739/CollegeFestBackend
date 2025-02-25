@@ -21,6 +21,7 @@ router.get("/:enrollmentNo", async (req, res) => {
       year: student.Year,
       semester: student.Semester,
       group: student.Group,
+      whatsappgroup: student.WhatsappGroup,
     });
   } catch (error) {
     console.error("Error fetching student:", error);
