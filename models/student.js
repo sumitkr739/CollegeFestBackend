@@ -9,6 +9,7 @@ const studentSchema = new mongoose.Schema({
   Year: Number,
   Semester: Number,
   Group: String, // Malva, Purvanchal, Mahakoushal, Bundelkhand
+  WhatsappGroup: String,
 });
 
 module.exports = mongoose.model("students", studentSchema);
